@@ -22,11 +22,8 @@ public class Lessons12930 {
 		for (int i = 0; i < words.length; i++) {
 			char[] word = words[i].toCharArray();
 			for (int j = 0; j < word.length; j++) {
-				if (j % 2 == 0) {
-					word[j] = Character.toUpperCase(word[j]);
-				} else {
-					word[j] = Character.toLowerCase(word[j]);
-				}
+				if (j % 2 == 0) word[j] = Character.toUpperCase(word[j]);
+				else word[j] = Character.toLowerCase(word[j]);
 			}
 			words[i] = new String(word);
 		}

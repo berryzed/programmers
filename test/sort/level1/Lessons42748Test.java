@@ -1,5 +1,6 @@
-package level1;
+package sort.level1;
 
+import sort.level1.Lessons42748;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
